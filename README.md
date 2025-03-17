@@ -12,7 +12,7 @@ cd cryoTIGER
 
 ## Code Acknowledgments
 
-This project makes use of code from [FILM: Frame Interpolation for Large Motion](https://github.com/google-research/frame-interpolation), authored by [Google Research](https://github.com/google-research). Their work provided a basis for running an interpolator in this project and we use their code in the 'eval' folder as well as in the 'example_train_config' folder.
+This project makes use of code from [FILM: Frame Interpolation for Large Motion](https://github.com/google-research/frame-interpolation), authored by [Google Research](https://github.com/google-research). Their work provided a basis for running an interpolator in this project and we use their code in the `eval` folder as well as in the `example_train_config` folder.
 
 
 ### Using environment.yml

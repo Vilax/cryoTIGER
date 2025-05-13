@@ -23,6 +23,8 @@ This project makes use of code from [FILM: Frame Interpolation for Large Motion]
 conda env create -f environment.yml
 ```
 
+Note: Depending on your system, this can take some time due to the installation of large libraries like Tensorflow.
+
 ### Using pip
 
 * The following dependencies should be installed:
@@ -84,3 +86,4 @@ cryoTIGER_interpolation.ipynb
 <tutorial_data>/<interpolated_TS>
 ```
 
+Note: Typical running time on GeForce RTX 3090 is around 5 minutes per tomogram.

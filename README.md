@@ -17,7 +17,7 @@ This project makes use of code from [FILM: Frame Interpolation for Large Motion]
 
 ### Using environment.yml
 
-*   Create cryoTIGER conda environment using .yml file
+*   Create cryoTIGER conda environment using .yml file (only CPU support)
 
 ```
 conda env create -f environment.yml
@@ -48,6 +48,8 @@ Note: Depending on your system, this can take some time due to the installation 
 ```
 pip3 install -r requirements.txt
 ```
+
+* **Note:** If you want GPU support, you need to set up your NVIDIA GPU Python environment with the appropriate CUDA Toolkit and cuDNN before installing TensorFlow.
 
 
 ## Pre-trained Models

@@ -72,6 +72,8 @@ The downloaded folder should have the following structure:
 ## Running cryoTIGER
 
 *   To demonstrate the cryoTIGER tilt interpolation framework, we provide a Jupyter Notebook
+*   **Note:** If you move this notebook to a different folder, make sure that the `eval` directory is still accessible (e.g., by updating the Python path or using relative imports correctly). For best results, keep the notebook within the original project structure.
+
 
 ```
 cryoTIGER_interpolation.ipynb
